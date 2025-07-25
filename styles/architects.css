@@ -105,6 +105,64 @@ main>section{
 .features-description{
     color: rgba(132, 129, 129, 1);
 }
+/* section second part start */
+.secion-loveable-features{
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+}
+/* main section third part start */
+.all-facts-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* margin-top: 100px; */
+    justify-content: center;
+    margin: 100px 290px;
+    gap: 50px;
+
+       
+}
+.common-fact-style{
+    border: 1px solid #FF900E;
+    width: 241px;
+    height: 241px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    gap: 5px;
+}
+.facts-title{
+    color: black;
+    font-size: 2.7rem;
+    font-weight: 800;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+.fact-content{
+    padding: 45px 36px;
+   
+}
+.text-fact-style{
+    font-size: 1rem;
+    color: rgba(132, 129, 129, 1);;
+}
+.number-attributes{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.fact-description{
+    font-size: 1rem;
+    font-weight: 100;
+    max-width: 545px;
+    color: #424242;
+ }
+
+
 /* responsive media query */
 @media screen and (max-width:576px) {
     .navbar, .nav-links, .Teams{
