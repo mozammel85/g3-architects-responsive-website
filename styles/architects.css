@@ -106,12 +106,59 @@ main>section{
     color: rgba(132, 129, 129, 1);
 }
 /* section second part start */
-.secion-loveable-features{
+.section-loveable-features{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     max-width: 1440px;
 }
-/* main section third part start */
+/* Features section start */
+.features-heading{
+    font-size: 2.7rem;
+    font-weight: 800;
+    max-width: 464px;
+}
+.features-border-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    }
+.features-description{
+    font-size: 1rem;
+    color: rgba(132, 129, 129, 1);
+    max-width: 586px;
+}
+.features-content-desciption{
+    font-size: 1rem;
+    color: rgba(132, 129, 129, 1);
+    padding-left: 30px;
+    padding-right: 42px;
+}
+.features-content{
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 28px;
+    margin-bottom: 10px;
+}
+.features-item{
+    max-width: 586px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-right: 146px;
+    margin-bottom: 20px;
+   
+}
+.experience-badge{
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+#Experience-year{
+    font-size: 4rem;
+    font-weight: 800;
+    }
+/* main section third part(some fact) start */
 .all-facts-content{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -151,7 +198,6 @@ main>section{
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 10px;
-
 }
 .fact-description{
     font-size: 1rem;
